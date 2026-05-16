@@ -4,7 +4,7 @@ Nonlinear 6-DOF simulation of a quadcopter tracking a figure-8 trajectory using 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Step 1: Load Parameters
 
@@ -52,20 +52,8 @@ This generates:
 
 ---
 
-## 🧠 Implementation Details
+## Implementation Details
 
 The quadcopter model, including its nonlinear 6-DOF dynamics and the complete cascade control structure (outer-, middle-, and inner-loop controllers), is implemented entirely using user-defined MATLAB functions rather than preconfigured Simulink blocks.
-
----
-
-## 🔧 Why Custom MATLAB Functions?
-
-* **Full transparency**: All equations are explicitly implemented, ensuring clarity and reproducibility
-* **Educational value**: Direct insight into Newton–Euler rigid body dynamics
-* **High customizability**: Easy to add aerodynamic effects, disturbances, or actuator dynamics
-* **Debugging flexibility**: Step-by-step debugging using MATLAB tools
-* **Portability**: Reusable across simulations and projects
-* **Toolbox independence**: No reliance on specialized toolboxes
-* **Research alignment**: Consistent with academic best practices emphasizing transparency
 
 ---
