@@ -8,9 +8,7 @@
 
 This is the original implementation of the controller later ported to Python and **published as an official use-case example in the [c4dynamics framework documentation](https://c4dynamics.github.io/c4dynamics/programs/pid_cascade/quadcopter_pid.html)**: the same architecture validated on two independent toolchains.
 
-Python port: [quadcopter-cascade-pid-python](https://github.com/usama-k-mech/quadcopter-cascade-pid-python)
-
-![Simulation results](src/figures/simulation_results.png)
+![Simulation results](figures/simulation_results.png)
 
 ---
 
