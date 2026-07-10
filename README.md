@@ -20,7 +20,7 @@ This is the original implementation of the controller later ported to Python and
 
 ## How to Run
 
-From the `src/` folder, in the MATLAB Command Window:
+In the MATLAB Command Window:
 
 ```matlab
 run('Quad_Params.m')            % 1. load parameters and generate the reference trajectory
@@ -53,8 +53,6 @@ Three phases over a 90 s flight, all reference signals generated analytically in
 | Quadcopter plant (`quad_plant_fcn.m`) | continuous | full nonlinear Newton-Euler 12-state dynamics as a Level-2 MATLAB S-Function: gyroscopic rotor coupling, per-axis aerodynamic drag, ZYX Euler kinematics |
 
 Physical parameters follow the widely used Luukkonen quadcopter model (*Modelling and Control of Quadcopter*, Aalto University, 2011): m = 0.468 kg, L = 0.225 m, kT = 2.98e-6 N/(rad/s)^2, torque-to-thrust ratio 0.0382.
-
-![Simulink top level](src/figures/simulink_top_level.png)
 
 ### Why user-defined functions instead of library blocks
 
